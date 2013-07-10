@@ -180,6 +180,23 @@
 			margin: 0 auto;
 			float: left;
 			background-color: rgba(255, 255, 255, 0.9);
+			display: inline-block;
+			transition: background 1.5s;
+			-webkit-transition: background 1.5s;
+		}
+
+		.box.find:hover {
+			background-color: rgba(225, 80, 41, 0.9);
+		}
+
+		.box.find h2 {
+			color: rgb( 225, 80, 41);
+			transition: color 1.5s;
+			-webkit-transition: color 1.5s;
+		}
+
+		.box.find:hover h2 {
+			color: rgb(255, 255, 255);
 		}
 
 		.box.contact {
@@ -190,12 +207,25 @@
 			margin: 0 auto;
 			float: center;
 			margin-left: 5%;
-			margin-right:;
+			display: inline-block;
+			transition: background 1.5s;
+			-webkit-transition: background 1.5s;
+		}
+
+		.box.contact:hover {
+			background-color: rgba(255, 255, 255, 0.9);
+
+		}
+
+		.box.contact:hover h2 {
+			color: rgb(225, 80, 41);
 		}
 
 		.box.contact h2 {
 			color: rgb(255, 255, 255);
 			text-align: center;
+			transition: color 1.5s;
+			-webkit-transition: color 1.5s;
 		}
 
 		.box.follow {
@@ -205,8 +235,23 @@
 			background-color: rgba(255, 255, 255, 0.9);
 			margin: 0 auto;
 			float: right;
+			transition: background 1.5s;
+			-webkit-transition: background 1.5s;
 		}
 
+		.box.follow:hover {
+			background-color: rgba(225, 80, 41, 0.9);
+		}
+
+		.box.follow h2 {
+			color: rgb( 225, 80, 41);
+			transition: color 1.5s;
+			-webkit-transition: color 1.5s;
+		}
+
+		.box.follow:hover h2 {
+			color: rgb(255, 255, 255);
+		}
 
 		.box h3
 		{
