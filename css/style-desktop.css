@@ -132,6 +132,7 @@
 		.bow.desk-title h3
 		{
 			text-align: center;
+			font-size: 36px;
 		}
 
 		.box.desk-text
@@ -154,7 +155,20 @@
 
 		.box.location-text {
 			width: 100%;
-			height: 200px;
+			height: 250px;
+			clear: both;
+		}
+
+		#left-loc {
+			float: left;
+			width: 45%;
+			display: inline-block;
+		}
+
+		#right-loc {
+			float: right;
+			width: 45%;
+			display: inline-block;
 		}
 
 		.box.meeting-text {
@@ -289,6 +303,43 @@
 			font-size:18px;
 			color: #313131;
 			}
+
+/*********************************************************************************/
+/* Paul's Paragraph stylings                                                     */
+/*********************************************************************************/
+
+.titles {
+	font-family: "Virgo01Regular";
+	font-size: 2.25em;
+	color: rgba(225, 80, 41, 0.9);
+}
+
+span.bold {
+	font-size: 1em;
+	font-family: Lato;
+	color: black;
+	font-weight: bold;
+}
+
+span.desk-text-email {
+	font-family: 'Lato Black';
+	font-size: 1.2em;
+	f/*ont-weight: bold*/;
+}
+
+#desk-text {
+	font-size: 1em;
+	font-family: 'Lato Regular';
+	color: black;
+	text-align: left;
+}
+
+#loc-text {
+	font-style: 1em;
+	font-family: 'Lato Regular';
+	text-align: left;
+	color: black;
+}
 
 /*********************************************************************************/
 /* Wrappers                                                                      */
