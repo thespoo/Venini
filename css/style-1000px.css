@@ -49,3 +49,7 @@
 			height: 19.5em;
 			margin: 0;
 		}
+
+	.box.location-title {
+		margin-bottom: 15px;
+	}
