@@ -133,6 +133,7 @@
 		{
 			text-align: center;
 			font-size: 36px;
+			text-align: center;
 		}
 
 		.box.desk-text
@@ -398,6 +399,12 @@ span.desk-text-email {
 			background-size: cover;
 			height: 601px;
 			clear: both;
+		}
+
+		.background-meeting img {
+			display: block;
+			position: absolute;
+			width: 100%;
 		}
 
 		.background-contact {
