@@ -173,18 +173,20 @@
 		}
 
 		.box.meeting-text {
-			width: 80%;
+			width: 70%;
 			height: 200px;
 			text-align: left;
 			float: left;
 			padding-top: 50px;
+			display: block;
 		}
 
 		.box.meeting-title {
-			width: 17.5%;
+			width: 25%;
 			height: 200px;
 			text-align: center;
 			float: right;
+			display: block;
 		}
 
 		.box.find {
@@ -305,6 +307,13 @@
 			color: #313131;
 			}
 
+		.map iframe {
+			margin: 0 auto;
+			display: block;
+			padding-top: 20px;
+
+		}
+
 /*********************************************************************************/
 /* Paul's Paragraph stylings                                                     */
 /*********************************************************************************/
@@ -405,6 +414,7 @@ span.desk-text-email {
 			display: block;
 			position: absolute;
 			width: 100%;
+			height: 100%;
 		}
 
 		.background-contact {
@@ -422,6 +432,41 @@ span.desk-text-email {
 			width: 100%;
 			height: 100%;
 		}
+
+		.footer-find {
+			height: 500px;
+			width: 100%;
+			display: none;
+		}
+
+		.footer-contact {
+			height: 500px;
+			width: 100%;
+			border: solid 1px black;
+			display: none;
+		}
+
+		.footer-follow {
+			height: 500px;
+			width: 100%;
+			border: solid 1px black;
+			display: none;
+		}
+
+		footer {
+			height: 140px;
+			width: 100%;
+			background-color: rgb(255, 255, 255);
+
+		}
+
+		footer img {
+			margin: 0 auto;
+			display: block;
+			padding-top: 80px;
+		}
+
+
 
 		.wrapper-first
 		{

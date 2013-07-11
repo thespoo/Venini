@@ -1,5 +1,14 @@
 $(document).ready(function() {
-	$(".box find").on("mouseover", (function() {
-		$(this).animate({'backgroundColor' : '#f5f5f5'}, 400);
+	
+	$('.find').click(function() {
+		$('.footer-find').slideToggle("slow");
+	});
+	
+	$('.contact').click(function() {
+		$('.footer-contact').slideToggle("slow");
+	});
+	
+	$('.follow').click(function() {
+		$('.footer-follow').slideToggle("slow");
 	});
 });
