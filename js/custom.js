@@ -11,7 +11,9 @@ $(document).ready(function() {
 		$('.footer-find').slideUp();
 		$('.footer-follow').slideUp();
 		$('.footer-contact').slideToggle("slow");
-		$('html,body').animate({scrollTop: $('.footer-contact').offset().top},'slow');
+		if( $('.footer-contact').is(':visible')) {
+			$('html,body').animate({scrollTop: $('.footer-contact').offset().top},'slow');
+		}
 	});
 	
 	$('.follow').click(function() {
