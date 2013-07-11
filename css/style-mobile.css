@@ -109,6 +109,7 @@
 	{
 		padding: 30px 20px 30px 20px;
 		margin: 0 0 20px 0 !important;
+		background-color: rgba(255, 255, 255, 0.7);
 	}
 
 		.box h3
@@ -170,6 +171,7 @@
 
 	#top
 	{
+		margin-top: 270px;
 	}
 
 		#top .me
