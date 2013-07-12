@@ -69,5 +69,7 @@ $(document).ready(function() {
 			$('a#portfolio').addClass('current');
 		}
 	}, {offset: 270});
+
+// jQuery for the hovering over the contacts links. Will inevitably need refactoring.
 });
 
