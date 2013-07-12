@@ -22,4 +22,19 @@ $(document).ready(function() {
 		$('.footer-follow').slideToggle("slow");
 		$('html,body').animate({scrollTop: $('.footer-follow').offset().top},'slow');
 	});
+	
+	$('.background-desk').waypoint(function() {
+		$('#nav a#desk').toggleClass('current');
+	
+	}, { offset: 270, continuous: false });
+
+
+	$('.background-location').waypoint(function() {
+		$('#nav a#work').toggleClass('current');
+	}, {offset: 270 });
+
+	$('.background-meeting').waypoint(function() {
+		$('a#portfolio').toggleClass('current');
+	}, { offset: 270 });
 });
+

@@ -334,21 +334,21 @@ span.bold {
 }
 
 span.desk-text-email {
-	font-family: 'Lato Black';
+	font-family: Lato;
 	font-size: 1.2em;
 	f/*ont-weight: bold*/;
 }
 
 #desk-text {
 	font-size: 1em;
-	font-family: 'Lato Regular';
+	font-family: Lato;
 	color: black;
 	text-align: left;
 }
 
 #loc-text {
 	font-style: 1em;
-	font-family: 'Lato Regular';
+	font-family: Lato;
 	text-align: left;
 	color: black;
 }
@@ -517,6 +517,12 @@ span.desk-text-email {
 			-ms-transition: background-color .2s ease-in-out;
 			transition: background-color .2s ease-in-out;
 			color: #313131;
+		}
+
+		a.current
+		{
+			background-color: #313131;
+			color: #FFFFFF !important;
 		}
 		
 
