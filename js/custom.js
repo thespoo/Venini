@@ -25,16 +25,43 @@ $(document).ready(function() {
 	
 	$('.background-desk').waypoint(function() {
 		$('#nav a#desk').toggleClass('current');
-	
 	}, { offset: 270, continuous: false });
+
+	$('#desk-bottom').waypoint(function(dir) {
+		if (dir === 'down' ) {
+			$('a#desk').removeClass('current');
+		}
+		else {
+			$('a#desk').addClass('current');
+		}
+	}, {offset: 270});
+
 
 
 	$('.background-location').waypoint(function() {
 		$('#nav a#work').toggleClass('current');
-	}, {offset: 270 });
+	}, {offset: 350 });
+
+	$('#loc-bottom').waypoint(function(dir) {
+		if (dir === 'down' ) {
+			$('a#work').removeClass('current');
+		}
+		else {
+			$('a#work').addClass('current');
+		}
+	}, {offset: 270});
 
 	$('.background-meeting').waypoint(function() {
 		$('a#portfolio').toggleClass('current');
-	}, { offset: 270 });
+	}, { offset: 350 });
+
+	$('#meeting-bottom').waypoint(function(dir) {
+		if (dir === 'down' ) {
+			$('a#portfolio').removeClass('current');
+		}
+		else {
+			$('a#portfolio').addClass('current');
+		}
+	}, {offset: 270});
 });
 
