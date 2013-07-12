@@ -1,4 +1,7 @@
+
 $(document).ready(function() {
+
+// unfactored code for dropdown under contacts section.
 	
 	$('.find').click(function() {
 		$('.footer-contact').slideUp();
@@ -15,7 +18,7 @@ $(document).ready(function() {
 			$('html,body').animate({scrollTop: $('.footer-contact').offset().top},'slow');
 		}
 	});
-	
+
 	$('.follow').click(function() {
 		$('.footer-find').slideUp();
 		$('.footer-contact').slideUp();
@@ -23,6 +26,9 @@ $(document).ready(function() {
 		$('html,body').animate({scrollTop: $('.footer-follow').offset().top},'slow');
 	});
 	
+
+// Unfactored code for the navbar animations
+
 	$('.background-desk').waypoint(function() {
 		$('#nav a#desk').toggleClass('current');
 	}, { offset: 270, continuous: false });
