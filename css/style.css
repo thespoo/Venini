@@ -965,6 +965,28 @@
 				border-top: solid 0.6em #282828;
 			}
 
+	/* Locales */
+	#locale {
+		top: 0;
+		left: 0;
+		background-color: rgba(225, 80, 41, 0.9);
+		position: absolute;
+		z-index: 11000;
+		margin-left: 85%;
+	}
+
+	#locale ul {
+		margin: 0;
+		padding-top: 0;
+
+	}
+
+	#locale li {
+		display: inline-block;
+		font-family: "Lato";
+		color: #FFFFFF;
+	}
+
 /*********************************************************************************/
 /* Articles                                                                      */
 /*********************************************************************************/

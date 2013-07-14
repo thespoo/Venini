@@ -29,24 +29,32 @@ $(document).ready(function() {
 
 // Unfactored code for the navbar animations
 
+	// For the minimized nav bar.
+
+
+
+	$('.background-desk').waypoint(function() {
+		$('#nav-min').slideToggle();
+	})
+
 	$('.background-desk').waypoint(function() {
 		$('#nav a#desk').toggleClass('current');
-	}, { offset: 270, continuous: false });
+	}, { offset: 270 });
 
 	$('#desk-bottom').waypoint(function(dir) {
 		if (dir === 'down' ) {
 			$('a#desk').removeClass('current');
+			$('a#work').addClass('current');
 		}
 		else {
 			$('a#desk').addClass('current');
+			$('a#work').removeClass('current');
 		}
-	}, {offset: 1270});
-
-
+	});
 
 	$('.background-location').waypoint(function() {
 		$('#nav a#work').toggleClass('current');
-	}, {offset: 350 });
+	});
 
 	$('#loc-bottom').waypoint(function(dir) {
 		if (dir === 'down' ) {
@@ -55,11 +63,11 @@ $(document).ready(function() {
 		else {
 			$('a#work').addClass('current');
 		}
-	}, {offset: 270});
+	});
 
 	$('.background-meeting').waypoint(function() {
 		$('a#portfolio').toggleClass('current');
-	}, { offset: 350 });
+	});
 
 	$('#meeting-bottom').waypoint(function(dir) {
 		if (dir === 'down' ) {
@@ -68,7 +76,7 @@ $(document).ready(function() {
 		else {
 			$('a#portfolio').addClass('current');
 		}
-	}, {offset: 270});
+	});
 
 // jQuery for the hovering over the contacts links. Will inevitably need refactoring.
 
