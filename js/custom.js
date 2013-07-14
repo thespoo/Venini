@@ -40,7 +40,7 @@ $(document).ready(function() {
 		else {
 			$('a#desk').addClass('current');
 		}
-	}, {offset: 270});
+	}, {offset: 1270});
 
 
 
