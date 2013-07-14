@@ -54,7 +54,7 @@
 
 	a
 	{
-		color: #3B95C6;
+		color: #313131;
 		text-decoration: underline;
 		-moz-transition: color .2s ease-in-out;
 		-webkit-transition: color .2s ease-in-out;
@@ -856,7 +856,7 @@
 	{
 		background-color: #282828;
 		text-align: center;
-		position: fixed;
+		position: relative;
 		left: 0;
 		top: 0;
 		width: 100%;
@@ -885,7 +885,7 @@
 		
 			#nav a:hover
 			{
-				color: #fff !important;
+				color: #FFFFFF !important;
 			}
 			
 			#nav a.active:before
@@ -900,7 +900,65 @@
 				border-right: solid 0.75em transparent;
 				border-top: solid 0.6em #282828;
 			}
-			
+
+	/* Minimized fixed Nav */
+
+	#nav-min
+	{
+		background-color: #FFFFFF;;
+		text-align: center;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 11000;
+		cursor: default;
+	}
+
+		#nav-min ul {
+			margin: 0;
+		}
+
+		#nav-min li {
+			display: inline-block;
+		}
+
+		#nav-min a {
+			position: relative;
+			display: block;
+			color: #FFFFFF;
+			text-decoration: none;
+			outline: 0;
+			padding: 0.2em 1em 0.2em 1em;
+			margin: 0em 0.2em 0.6em 0.2em;
+			font:Lato;
+			font-weight: 600;
+			border-radius: 8px;
+			-moz-transition: background-color .2s ease-in-out;
+			-webkit-transition: background-color .2s ease-in-out;
+			-o-transition: background-color .2s ease-in-out;
+			-ms-transition: background-color .2s ease-in-out;
+			transition: background-color .2s ease-in-out;
+			color: #313131;
+		}
+
+			#nav-min a:hover
+			{
+				background: #383838;
+			}
+
+			#nav-min a.active:before {
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: -0.6em;
+				left: 50%;
+				margin-left: -0.75em;
+				border-left: solid 0.75em transparent;
+				border-right: solid 0.75em transparent;
+				border-top: solid 0.6em #282828;
+			}
+
 /*********************************************************************************/
 /* Articles                                                                      */
 /*********************************************************************************/
