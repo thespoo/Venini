@@ -815,7 +815,8 @@
 
 			#nav-min a:hover
 			{
-				background: #383838;
+				background: rgb(255, 80, 41);
+				color: #FFFFFF !important;
 			}
 
 			#nav-min a.active:before {
