@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 
+<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+
 @font-face {
 	font-family: 'Lato';
 	src: url('fonts/Lato-Black-webfont.eot?v=3.0.1');
@@ -22,6 +24,7 @@
     font-style: normal;
 
 }
+
 
 /*
 	Miniport 2.0 by HTML5 UP
@@ -61,12 +64,11 @@
 		-o-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		font-family: Lato;
 	}
 	
 		a:hover
 		{
-			color: #FFFFFF !important;
+			color: rgb(255, 80, 41) !important;
 		}
 
 		a img
@@ -263,7 +265,7 @@
 		background-image: -o-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
 		background-image: -ms-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
 		background-image: linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
-		box-shadow: inset 0px 0px 0px 1px #135c86, inset 0px 2px 1px 0px rgba(255,255,255,0.75);
+		/*box-shadow: inset 0px 0px 0px 1px #135c86, inset 0px 2px 1px 0px rgba(255,255,255,0.75);*/
 		-moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
 		-o-transition: background-color .2s ease-in-out;
@@ -282,144 +284,11 @@
 			height: 100%;
 			background: url('images/bg.png');
 		}
-
-		.button:hover
-		{
-			background-color: #76cdf0;
-			color: #fff !important;
-		}
-		
-		.button:active
-		{
-			background-image: -moz-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
-			background-image: -webkit-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
-			background-image: -o-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
-			background-image: -ms-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
-			background-image: linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
-			box-shadow: inset 0px 0px 0px 1px #135c86, inset 0px -2px 1px 0px rgba(255,255,255,0.75);
-			top: 1px;
-		}
-	
-		.button-alt
-		{
-			background-color: #393939;
-			background-image: -moz-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
-			background-image: -webkit-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
-			background-image: -o-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
-			background-image: -ms-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
-			background-image: linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
-			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255,255,255,0.2);
-		}
-
-			.button-alt:hover
-			{
-				background-color: #444;
-			}
-			
-			.button-alt:active
-			{
-				background-image: -moz-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
-				background-image: -webkit-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
-				background-image: -o-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
-				background-image: -ms-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
-				background-image: linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
-				box-shadow: inset 0px 0px 0px 1px #242424, inset 0px -2px 1px 0px rgba(255,255,255,0.2);
-			}
-	
-		.button-big
-		{
-		}
-
-	ul.social
-	{
-		cursor: default;
-		margin: 0;
-	}
-	
-		ul.social li
-		{
-			position: relative;
-			display: inline-block;
-			margin: 0.25em;
-			top: 0;
-			border-radius: 6px;
-			overflow: hidden;
-			background: #444;
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
-			background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
-			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
-			-moz-transition: background-color .2s ease-in-out, top .2s ease-in-out;
-			-webkit-transition: background-color .2s ease-in-out, top .2s ease-in-out;
-			-o-transition: background-color .2s ease-in-out, top .2s ease-in-out;
-			-ms-transition: background-color .2s ease-in-out, top .2s ease-in-out;
-			transition: background-color .2s ease-in-out, top .2s ease-in-out;
-			box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255,255,255,0.1);
-		}
-
-			ul.social li:before
-			{
-				content: '';
-				display: block;
-				position: absolute;
-				left: 0;
-				top: 0;
-				width: 100%;
-				height: 100%;
-				background: url('images/bg.png');
-			}
-
-			ul.social li.twitter:hover				{ background-color: #2DAAE4; }
-			ul.social li.facebook:hover				{ background-color: #3C5A98; }
-			ul.social li.dribbble:hover				{ background-color: #C4376B; }
-			ul.social li.linkedin:hover				{ background-color: #006599; }
-			ul.social li.tumblr:hover				{ background-color: #51718A; }
-			ul.social li.googleplus:hover			{ background-color: #DA2713; }
-			ul.social li.github:hover				{ background-color: #FAFAFA; }
-			ul.social li.rss:hover					{ background-color: #F2600B; }
-			ul.social li.instagram:hover			{ background-color: #E0D7C8; }
-			ul.social li.foursquare:hover			{ background-color: #39A3D4; }
-			ul.social li.skype:hover				{ background-color: #10BEF1; }
-			ul.social li.soundcloud:hover			{ background-color: #FE5419; }
-			ul.social li.youtube:hover				{ background-color: #BF2E25; }
-			ul.social li.blogger:hover				{ background-color: #FF6501; }
-			ul.social li.flickr:hover				{ background-color: #0062DB; }
-			ul.social li.vimeo:hover				{ background-color: #4C8AB0; }
-
-			ul.social li:hover
-			{
-				top: -5px;
-			}
-
-			ul.social li:active
-			{
-				top: 0;
-			}
-
-			ul.social li a
-			{
-				display: block;
-				position: relative;
-				width: 48px;
-				height: 48px;
-				outline: 0;
-				color: #2E2E2E !important;
-				line-height: 48px;
-				font-size: 24px;
-				text-shadow: 1px 1px 0px rgba(255,255,255,0.1);
-			}
-			
-			ul.social li a span
-			{
-				display: block;
-				text-indent: -9999px;
-			}
 			
 	.box
 	{
 		background: #fff;
-		box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15), 0px 2px 3px 0px rgba(0,0,0,0.1);
+/*		box-: inset 0px 0px 0px 1px rgba(0,0,0,0.15), 0px 2px 3px 0px rgba(0,0,0,0.1);*/
 		text-align: center;
 	}
 
@@ -914,10 +783,6 @@
 		width: 20%;
 		z-index: 11000;
 		cursor: default;
-		border-bottom-right-radius: 10px;
-		border-bottom-left-radius: 10px;
-		-webkit-border-bottom-right-radius: 10px;
-		-webkit-border-bottom-left-radius: 10px;
 		display: none;
 	}
 
@@ -940,7 +805,7 @@
 			margin: 0em 0.2em 0.6em 0.2em;
 			font:Lato;
 			font-weight: 600;
-			border-radius: 8px;
+/*			border-radius: 8px;*/
 			-moz-transition: background-color .2s ease-in-out;
 			-webkit-transition: background-color .2s ease-in-out;
 			-o-transition: background-color .2s ease-in-out;
@@ -973,6 +838,8 @@
 		position: absolute;
 		z-index: 11000;
 		margin-left: 85%;
+		width: 30px;
+		text-align: center;
 	}
 
 	#locale ul {
@@ -983,7 +850,11 @@
 
 	#locale li {
 		display: inline-block;
-		font-family: "Lato";
+		color: #FFFFFF;
+	}
+
+	#locale a {
+		text-decoration: none;
 		color: #FFFFFF;
 	}
 

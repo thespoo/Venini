@@ -119,7 +119,7 @@
 	.box
 	{
 		padding: 2em 2em 2.5em 2em;
-		background-color: rgba(255, 255, 255, 0.7);
+		
 		display: inline-block;
 		z-index: 100;
 	}
@@ -128,7 +128,9 @@
 		{
 			float: left;
 			height: 200px;
-			width: 17.5%;
+			width: 20%;
+			background-color: rgba(255, 255, 255, 0.7);
+			text-align: center;
 		}
 
 		.bow.desk-title h3
@@ -141,14 +143,16 @@
 		.box.desk-text
 		{
 			height: 200px;
-			width: 80%;
+			width: 75%;
 			float: right;
+			background-color: rgba(255, 255, 255, 0.8);
 		}
 
 		.box.location-title
 		{
 			width: 100%;
 			height: 100px;
+			background-color: rgba(255, 255, 255, 0.7);
 		}
 
 		.box.location-title h3 {
@@ -160,6 +164,7 @@
 			width: 100%;
 			height: 250px;
 			clear: both;
+			background-color: rgba(255, 255, 255, 0.8);
 		}
 
 		#left-loc {
@@ -181,6 +186,7 @@
 			float: left;
 			padding-top: 50px;
 			display: block;
+			background-color: rgba(255, 255, 255, 0.8);
 		}
 
 		.box.meeting-title {
@@ -189,10 +195,11 @@
 			text-align: center;
 			float: right;
 			display: block;
+			background-color: rgba(255, 255, 255, 0.8);
 		}
 
 		.box.find {
-			width: 30%;
+			width: 200px;
 			height: 200px;
 			text-align: center;
 			float: left;
@@ -220,12 +227,12 @@
 		}*/
 
 		.box.contact {
-			width: 30%;
+			width: 200px;
 			height: 200px;
 			text-align: center;
 			background-color: rgba(255, 255, 255, 0.9);
 			margin: 0 auto;
-			float: center;
+			float: right;
 			margin-left: 5%;
 			display: inline-block;
 			transition: background 1.5s;
@@ -356,7 +363,7 @@
 	width: 100%;
 	height: 100%;
 	background-color: rgba(255, 80, 41, 0.9);
-	padding-top: 30%;	
+	padding-top: 40%;	
 	padding-left: 35%;
 	padding-right: 35%;
 }
@@ -394,27 +401,23 @@
 
 span.bold {
 	font-size: 1em;
-	font-family: Lato;
 	color: black;
 	font-weight: bold;
 }
 
 span.desk-text-email {
-	font-family: Lato;
 	font-size: 1.2em;
 /*	font-weight: bold;*/
 }
 
 #desk-text {
 	font-size: 1em;
-	font-family: Lato;
 	color: black;
 	text-align: left;
 }
 
 #loc-text {
 	font-style: 1em;
-	font-family: Lato;
 	text-align: left;
 	color: black;
 }
@@ -522,16 +525,73 @@ span.desk-text-email {
 		}
 
 		footer {
-			height: 50px;
+			height: 300px;
 			width: 100%;
 			background-color: rgb(255, 255, 255);
 
 		}
 
+		.partner-title {
+			font-family: "Virgo01Regular";
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+			width: 50%;
+			font-size: 1.8em;
+			color: #383838;
+			padding-bottom: 20px;
+		}
+
+		.partner-links {
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		.partner-links ul {
+			width: 80%;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.partner-links li {
+			text-transform: uppercase;
+			display: inline-block;
+			padding: ;
+			margin: 0 auto;
+			text-align: center;
+			padding: 10px;
+			padding-bottom: 0;
+			font-size: 1em
+		}
+
+		.partner-links a {
+			text-decoration: none;
+			color: #888;
+		}
+
+		.partner-links a:hover {
+			color: #888 !important;
+			background: none;
+		}
+
+		.partner-row {
+			width: 100%;
+			height: 50px;
+		}
+
+		.logo-caption {
+			padding-top: 80px;
+			display: block;
+			margin: 0 auto;
+			font-size: 0.8em;
+			width: 50%;
+			text-align: center;
+		}
+
 		footer img {
 			margin: 0 auto;
 			display: block;
-			padding-top: 10px;
 		}
 
 
@@ -562,7 +622,7 @@ span.desk-text-email {
 
 		#nav a:hover
 		{
-			background: #383838;
+			background: rgb(255, 80, 41);
 		}
 		
 		#nav a:active
@@ -576,7 +636,7 @@ span.desk-text-email {
 			margin: 0em 0.2em 0.6em 0.2em;
 			font:Lato;
 			font-weight: 600;
-			border-radius: 8px;
+/*			border-radius: 8px;*/
 			-moz-transition: background-color .2s ease-in-out;
 			-webkit-transition: background-color .2s ease-in-out;
 			-o-transition: background-color .2s ease-in-out;
@@ -587,7 +647,7 @@ span.desk-text-email {
 
 		a.current
 		{
-			background-color: #313131;
+			background-color: rgb(255, 80, 41);
 			color: #FFFFFF !important;
 		}
 		
@@ -623,7 +683,7 @@ span.desk-text-email {
 		
 	#contact
 	{
-		width: 800px;
+		width: 500px;
 		margin: 0 auto;
 	}
 	
