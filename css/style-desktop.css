@@ -118,7 +118,7 @@
 
 	.box-container-desk
 	{
-		padding-top: 330px;
+		padding-top: 300px;
 		width: 80%;
 		margin: 0 auto;
 		z-index: 100;
@@ -140,7 +140,7 @@
 	}
 
 	.box-container-contact {
-		width: 90%;
+		width: 420px;
 		margin: 0 auto;
 		position: relative;
 		padding-top: 300px;
@@ -157,7 +157,7 @@
 		.box.desk-title
 		{
 			float: left;
-			height: 200px;
+			height: 220px;
 			width: 25%;
 			background-color: rgba(255, 255, 255, 0.7);
 			text-align: center;
@@ -171,7 +171,7 @@
 
 		.box.desk-text
 		{
-			height: 200px;
+			height: 220px;
 			width: 72.5%;
 			float: right;
 			background-color: rgba(255, 255, 255, 0.8);
@@ -269,8 +269,8 @@
 			text-align: center;
 			background-color: rgba(255, 255, 255, 0.9);
 			margin: 0 auto;
-			float: right;
-			margin-left: 5%;
+			float: left;
+			margin-left: 20px;
 			display: inline-block;
 			transition: background 1.5s;
 			-webkit-transition: background 1.5s;
