@@ -286,6 +286,11 @@
 			padding-top: 30px;
 		}
 
+		.contact-slide-mob a {
+			width: 50px;
+			height: 50px;
+		}
+
 		.contact-passive {
 			display: none;
 		}
@@ -355,10 +360,11 @@
 
 span.desk-text-email {
 	display: none;
+	font-size: 1.2em;
 
 }
 
-span.desk-text-email-mob {
+.desk-text-email-mob {
 	display: block;
 	font-size: 1.2em;
 }

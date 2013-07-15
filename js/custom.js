@@ -95,20 +95,26 @@ $(document).ready(function() {
 
 	$(".box.contact").hover(function() {
 
-		$(".contact-slide").stop(true, true).slideToggle();
-
+		$(".contact-passive").slideToggle(function () {
+			$(".contact-slide").slideToggle();
+		});
 	}, function () {
-			$(".contact-passive").stop(true, true).slideToggle();
+		$(".contact-slide").slideToggle(function() {
+			$(".contact-passive").slideToggle();
 
+		});
 	});
 
 	$(".box.follow").hover(function() {
 
-			$(".follow-slide").stop(true, true).slideToggle();
-
+		$(".follow-passive").slideToggle(function () {
+			$(".follow-slide").slideToggle();
+		});
 	}, function () {
-			$(".follow-passive").stop(true, true).slideToggle();
+		$(".follow-slide").slideToggle(function() {
+			$(".follow-passive").slideToggle();
 
+		});
 	});
 });
 
