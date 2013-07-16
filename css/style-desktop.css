@@ -448,6 +448,11 @@ span.desk-text-email {
 /*	font-weight: bold;*/
 }
 
+span.desk-text-email a {
+	text-decoration: none;
+	background: none;
+}
+
 span.desk-text-email-mob {
 	display: none;
 }

@@ -369,6 +369,11 @@ span.desk-text-email {
 	font-size: 1.2em;
 }
 
+span.desk-text-email-mob a {
+	text-decoration: none;
+	background: none;
+}
+
 #desk-text {
 	font-size: 1em;
 	color: black;

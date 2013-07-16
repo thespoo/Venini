@@ -88,7 +88,7 @@ $(document).ready(function() {
 		});
 	}, function () {
 		$(".find-slide").slideToggle(function() {
-			$(".find-passive").slideToggle();
+			$(".find-passive").stop(true, true).slideToggle();
 
 		});
 	});
@@ -100,7 +100,7 @@ $(document).ready(function() {
 		});
 	}, function () {
 		$(".contact-slide").slideToggle(function() {
-			$(".contact-passive").slideToggle();
+			$(".contact-passive").stop(true, true).slideToggle();
 
 		});
 	});
@@ -108,7 +108,7 @@ $(document).ready(function() {
 	$(".box.follow").hover(function() {
 
 		$(".follow-passive").slideToggle(function () {
-			$(".follow-slide").slideToggle();
+			$(".follow-slide").stop(true, true).slideToggle();
 		});
 	}, function () {
 		$(".follow-slide").slideToggle(function() {
