@@ -2,24 +2,14 @@
 
 <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
 
-@font-face {
-	font-family: 'Lato';
-	src: url('fonts/Lato-Black-webfont.eot?v=3.0.1');
-	src: url('fonts/Lato-Black-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
-	     url('fonts/Lato-Black-webfont.woff?v=3.0.1') format('woff'),
-	     url('fonts/Lato-Black-webfont.ttf?v=3.0.1') format('truetype'),
-	     url('fonts/Lato-Black-webfont.svg#FontAwesome') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
 
 @font-face {
     font-family: 'Virgo01Regular';
-    src: url('fonts/virgo-webfont.eot');
-    src: url('fonts/virgo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/virgo-webfont.woff') format('woff'),
-         url('fonts/virgo-webfont.ttf') format('truetype'),
-         url('fonts/virgo-webfont.svg#Virgo01Regular') format('svg');
+    src: url('http://venini42.s3.amazonaws.com/fonts/virgo-webfont.eot');
+    src: url('http://venini42.s3.amazonaws.com/fonts/virgo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://venini42.s3.amazonaws.com/fonts/virgo-webfont.woff') format('woff'),
+         url('http://venini42.s3.amazonaws.com/fonts/virgo-webfont.ttf') format('truetype'),
+         url('http://venini42.s3.amazonaws.com/fonts/virgo-webfont.svg#Virgo01Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 
