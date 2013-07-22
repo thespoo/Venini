@@ -827,11 +827,11 @@
 
 
 	.italian {
-		display: block !important;
+		display: block;
 	}
 
 	.english {
-		display: none !important;
+		display: none;
 	}
 
 	#locale {
