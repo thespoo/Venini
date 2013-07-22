@@ -672,9 +672,10 @@ span.desk-text-email-mob {
 			background: rgb(255, 80, 41);
 		}
 		
-		#nav a:active
+		#nav a.current
 		{
-			background: #484848;
+			background-color: rgb(255, 80, 41);
+			color: #FFFFFF !important;
 		}
 	
 		#nav a
@@ -692,15 +693,11 @@ span.desk-text-email-mob {
 			color: #313131;
 		}
 
-		a.current
-		{
-			background-color: rgb(255, 80, 41);
-			color: #FFFFFF !important;
-		}
-
 		a:hover {
 			color: #FFFFFF;
 		}
+
+
 		
 
 

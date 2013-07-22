@@ -309,8 +309,26 @@
 
 
 
-
 /* Nav Bar */
+
+	a.current:hover {
+		color: rgb(255, 80, 41);
+	}
+
+	a.current {
+		background-color: rgb(255, 80, 41);
+		color: #FFFFFF;
+	}
+
+	a:active {
+		color: #FFFFFF;
+		background-color: rgb(255, 80, 41);
+	}
+
+	a:hover {
+		background-color: rgb(255, 80, 41);
+		color: rgb(255, 80, 41);
+	}
 	#nav-min
 	{
 		background-color: rgba(255, 80, 41, 1);
@@ -334,26 +352,10 @@
 	#nav-min a.current {
 		background-color: #FFFFFF;
 		color: rgb(255, 80, 41);
-
 	}
 
-	a.current:hover {
-		color: rgb(255, 80, 41);
-	}
-
-	a.current {
-		background-color: rgb(255, 80, 41);
-		color: #FFFFFF;
-	}
-
-	a:active {
-		color: #FFFFFF;
-		background-color: rgb(255, 80, 41);
-	}
-
-	a:hover {
-		background-color: rgb(255, 80, 41);
-		color: rgb(255, 80, 41);
+	#nav-min a.current:hover {
+		color: rgb(255, 80, 41) !important;
 	}
 
 /*********************************************************************************/

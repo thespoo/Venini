@@ -6,7 +6,7 @@
 
 window._skel_config = {
 	preset: 'standard',
-	prefix: 'http://venini42.s3.amazonaws.com/style',
+	prefix: 'css/style',
 	resetCSS: true,
 	breakpoints: {
 		'desktop': {

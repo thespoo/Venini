@@ -818,6 +818,11 @@
 				border-top: solid 0.6em #282828;
 			}
 
+		#nav-min a.current {
+				background-color: rgb(255, 80, 41);
+				color: #FFFFFF;
+		}
+
 	/* Locales */
 
 
