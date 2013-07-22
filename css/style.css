@@ -1,8 +1,5 @@
 @charset 'UTF-8';
 
-<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
-
-
 @font-face {
     font-family: 'Virgo01Regular';
     src: url('http://venini42.s3.amazonaws.com/fonts/virgo-webfont.eot');
@@ -58,7 +55,7 @@
 	
 		a:hover
 		{
-			color: rgb(255, 80, 41) !important;
+			color: rgb(255, 80, 41);
 		}
 
 		a img
@@ -822,13 +819,23 @@
 			}
 
 	/* Locales */
+
+
+	.italian {
+		display: block !important;
+	}
+
+	.english {
+		display: none !important;
+	}
+
 	#locale {
 		top: 0;
 		left: 0;
 		background-color: rgba(225, 80, 41, 0.9);
 		position: absolute;
 		z-index: 11000;
-		margin-left: 85%;
+		margin-left: 15%;
 		width: 30px;
 		text-align: center;
 	}

@@ -146,6 +146,10 @@
 			color: #FFFFFF;
 		}
 
+		#nav a.current:hover {
+			color: rgb(255, 80, 41);
+		}
+
 		#nav a:hover {
 			color: #FFFFFF;
 		}
@@ -333,6 +337,10 @@
 
 	}
 
+	a.current:hover {
+		color: rgb(255, 80, 41);
+	}
+
 	a.current {
 		background-color: rgb(255, 80, 41);
 		color: #FFFFFF;
@@ -345,7 +353,7 @@
 
 	a:hover {
 		background-color: rgb(255, 80, 41);
-		color: #FFFFFF;
+		color: rgb(255, 80, 41);
 	}
 
 /*********************************************************************************/

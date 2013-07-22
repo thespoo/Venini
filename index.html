@@ -7,30 +7,35 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-		<script src="http://static.tumblr.com/xho2chb/sxjmq0vqt/jquery.min.js"></script>
-		<script src="http://static.tumblr.com/xho2chb/UxOmq0vpt/waypoints.min.js"></script>
-		<script src="http://static.tumblr.com/xho2chb/1Cxmq0vqi/jquery.scrollto-1.4.3.1-min.js"></script>
-		<script src="http://static.tumblr.com/xho2chb/ad5mq0vr4/jquery.localscroll-1.2.7-min.js"></script>
-		<script src="http://static.tumblr.com/xho2chb/Fvxmq15gk/config.js"></script>
-		<script src="http://static.tumblr.com/xho2chb/lCYmq0vq2/skel.min.js"></script>
-		<script src="http://static.tumblr.com/xho2chb/Wgwmq0vrp/custom.js"></script>
-		<script src="js/locale.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/jquery.scrollto-1.4.3.1-min.js"></script>
+		<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/custom.js"></script>
 		<noscript>
-			<link rel="stylesheet" href="http://venini42.s3.amazonaws.com/skel-noscript.css" />
-			<link rel="stylesheet" href="http://venini42.s3.amazonaws.com/style.css" />
-			<link rel="stylesheet" href="http://venini42.s3.amazonaws.com/style-desktop.css" />
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css"
         <>/><![endif]-->
-
+    <style>#locale { margin-left: 15% }</style>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<!-- Locale -->
 		<div id="locale">
 			<ul>
-				<li>EN</li>
+				<div class="italian">
+					<li><a href="#">EN</a></li>
+				</div>
+				<div class="english">
+					<li><a href="#">IT</a></li>
+				</div>
 			</ul>
 		</div>
 
@@ -53,7 +58,16 @@
 					<li><a href="#work" id="work">location</a></li>
 					<li><a href="#portfolio" id="portfolio">meeting</a></li>
 				<ul>
-			</section>					
+			</section>	
+            
+<!--         {block:Posts}
+
+        {block:Regular}
+          {Body}
+        {/block:Regular}
+
+        {/block:Posts}
+                 -->
 
 		<div id="mob-desk">
 
@@ -65,11 +79,23 @@
 					<div class="box desk-title">
 						<div class="titles">Desk</div>
 					</div>
-					<div class="box desk-text">
-						<div id ="desk-text"><span class="bold">10 desk disponibili</span> dove startup, freelance, creativi, appassionati di tecnologia e nativi digitali possono sviluppare la propria idea all’interno di un ambiente tech innovativo.<br /><br />
-						<span class="desk-text-email"><a href="mailto:info@venini42.it?Subject=Prenota%20la%20tua">Scrivici a info@venini42.it</a></span>
-						<span class="desk-text-email-mob"><a href="mailto:info@venini42.it?Subject=Prenota%20la%20tua">Scrivici a info@venini42.it</a></span></div>
+
+					<div class="italian">
+						<div class="box desk-text">
+							<div id ="desk-text"><span class="bold">10 desk disponibili</span> dove startup, freelance, creativi, appassionati di tecnologia e nativi digitali possono sviluppare la propria idea all’interno di un ambiente tech innovativo.<br /><br />
+							<span class="desk-text-email"><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20DESK%20a%20Venini42">Chiedi a info@venini42.it</a></span>
+							<span class="desk-text-email-mob"><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20DESK%20a%20Venini42">Chiedi a info@venini42.it</a></span></div>
+						</div>
 					</div>
+
+					<div class="english">
+						<div class="box desk-text">
+							<div id ="desk-text"><span class="bold">10 desk disponibili</span> where startups, creative, freelance, tech lovers and digital natives can develop their own ideas within an innovative technology environment.<br /><br />
+							<span class="desk-text-email"><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20DESK%20a%20Venini42">Contact us at info@venini42.it</a></span>
+							<span class="desk-text-email-mob"><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20DESK%20a%20Venini42">Contact us at info@venini42.it</a></span></div>
+						</div>
+					</div>
+
 					<div class="clearfix" />
 				</div>
 			</article>
@@ -86,15 +112,31 @@
 				<div class="box-container-location">
 					<div class="box location-title">Location</div>
 
-					<div class="box location-text">
-						<div id="left-loc">
-							<div id="loc-text"><span class="bold">Open Space</span> dalla forte personalità dove gli elementi industriali della struttura convivono con arredamento tra l'urban e il moderno diventa la location ideale per eventi, manifestazioni.<span class="desk-text-email"><br /> <br /><a href="mailto:info@venini42.it?Subject=Prenota%20la%20tua">Prenota la tua info@venini42.it</a></span></div>
+					<div class="italian">
+						<div class="box location-text">
+							<div id="left-loc">
+								<div id="loc-text"><span class="bold">Open Space</span> dalla forte personalità dove gli elementi industriali della struttura convivono con arredamento tra l'urban e il moderno diventa la location ideale per eventi, manifestazioni.<span class="desk-text-email"><br /> <br /><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20LOCATION%20a%20Venini42">Chiedi a info@venini42.it</a></span></div>
+							</div>
+							<div id="right-loc">
+								<div id="loc-text">Lo spazio compone di uno spazio kitchen con cucina attrezzata e servizi, 2 stanze living e un grande open space comunicante attraverso un’anticamera con un terrazzo di 30 Mq.<span class="desk-text-email-mob"><br /> <br /><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20LOCATION%20a%20Venini42">Chiedi a info@venini42.it</a></span></div> 
+							</div>
 						</div>
-						<div id="right-loc">
-							<div id="loc-text">Lo spazio compone di uno spazio kitchen con cucina attrezzata e servizi, 2 stanze living e un grande open space comunicante attraverso un’anticamera con un terrazzo di 30 Mq.<span class="desk-text-email-mob"><br /> <br /><a href="mailto:info@venini42.it?Subject=Prenota%20la%20tua">Prenota la tua info@venini42.it</a></span></div> </div>
-						</div>
-
 					</div>
+
+					<div class="english">
+						<div class="box location-text">
+							<div id="left-loc">
+								<div id="loc-text"><span class="bold">Open Space</span> with strong personality where the industrial structure elements coexist with furniture between the urban and the modern style.<span class="desk-text-email"><br /> <br /><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20LOCATION%20a%20Venini42">Contact us at info@venini42.it</a></span></div>
+							</div>
+							<div id="right-loc">
+								<div id="loc-text">The ideal location for events, exhibition with its kitchen space, 2 living rooms and a large open space adjoining with a terrace of 30 mq (2 Toilets).<span class="desk-text-email-mob"><br /> <br /><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20LOCATION%20a%20Venini42">Contact us at info@venini42.it</a></span></div> 
+							</div>
+						</div>
+					</div>
+					</div>
+
+
+
 				</div>
 			</article>
 
@@ -111,14 +153,29 @@
 			<article class="container" id="portfolio">
 				<div class="box-container-meeting">
 					<div class="box mob-meeting-title">Meeting</div>
-					<div class="box meeting-text">
-						<div id="loc-text"><span class="bold">4 sale meeting</span> disponibili per conferenze, corsi, riunioni. Ampie e luminose con tutte le facilities (capienza sale da 3 a 10 persone e oltre). <br /><br />
+					
+					<div class="italian">
+						<div class="box meeting-text">
+							<div id="loc-text"><span class="bold">4 sale meeting</span> disponibili per conferenze, corsi, riunioni. Ampie e luminose con tutte le facilities (capienza sale da 3 a 10 persone e oltre). <br /><br />
 
-							<span class="desk-text-email"><a href="mailto:info@venini42.it?Subject=Prenota%20la%20tua">Prenota la tua info@venini42.it</a></span><span class="desk-text-email-mob"><a href="mailto:info@venini42.it?Subject=Prenota%20la%20tua">Prenota la tua info@venini42.it</a></span></div>
+								<span class="desk-text-email"><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20MEETING%20a%20Venini42">Chiedi a info@venini42.it</a></span><span class="desk-text-email-mob"><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20MEETING%20a%20Venini42">Chiedi a info@venini42.it</a></span></div>
+						</div>
+						<div class="box meeting-title">
+							<div class="titles">Meeting</div>
+						</div>
 					</div>
-					<div class="box meeting-title">
-						<div class="titles">Meeting</div>
+
+					<div class="english">
+						<div class="box meeting-text">
+							<div id="loc-text"><span class="bold">4 sale meeting</span> available for conferences, courses, meetings. Spacious and bright with all the facilities (capacity halls from 3 to 10 people and more). <br /><br />
+
+								<span class="desk-text-email"><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20MEETING%20a%20Venini42">Contact us at info@venini42.it</a></span><span class="desk-text-email-mob"><a href="mailto:info@venini42.it?Subject=Richiedi%20info%20per%20MEETING%20a%20Venini42">Contact us at info@venini42.it</a></span></div>
+						</div>
+						<div class="box meeting-title">
+							<div class="titles">Meeting</div>
+						</div>
 					</div>
+
 				</div>
 
 			</article>
@@ -160,7 +217,7 @@
 							<h2>Contact</h2>
 						</div>
 						<div class="contact-slide">
-							<a href="mailto:info@venini42.it?Subject=Ciao%20Venini">
+							<a href="mailto:info@venini42.it?Subject=Ciao%20Venini42%20!">
 								<img src="http://venini42.s3.amazonaws.com/images/contact-hover.png" onmouseover="this.src='http://venini42.s3.amazonaws.com/images/contact-click.png'" onmouseout="this.src='http://venini42.s3.amazonaws.com/images/contact-hover.png'" title="Email Us" style="width: 42px; height: 40px;" />
 							</a>
 						</div>
@@ -177,7 +234,7 @@
 
 					<div class="box contact-mob">
 						<div class="contact-slide-mob">
-							<a href="mailto:info@venini42.it?Subject=Ciao%20Venini">
+							<a href="mailto:info@venini42.it?Subject=Ciao%20Venini42%20!">
 								<img src="http://venini42.s3.amazonaws.com/images/contact-hover.png" onmouseover="this.src='http://venini42.s3.amazonaws.com/images/contact-click.png'" onmouseout="this.src='http://venini42.s3.amazonaws.com/images/contact-hover.png'" title="Email Us" style="width: 42px; height: 40px;" />
 							</a>
 						</div>
@@ -198,25 +255,32 @@
 			<div class="partner-links">
 				<div class="partner-row">
 					<ul>
-						<li><a href="www.mikamai.com">Mikamai</a></li>
-						<li><a href="http://www.pressway.it">Press Way</a></li>
-						<li><a href="http://www.studio02.eu">Studio02</a></li>
-						<li><a href="http://www.7min.it">7 Min</a></li>
-						<li><a href="http://sintesipromotions.it">Sintesipromotions</a></li>
+						<li><a href="http://www.mikamai.com" target="_blank">Mikamai</a></li>
+						<li><a href="http://www.pressway.it" target="_blank">Press Way</a></li>
+						<li><a href="http://www.studio02.eu" target="_blank">Studio02</a></li>
+						<li><a href="http://www.7min.it" target="_blank">7 Min</a></li>
+						<li><a href="http://sintesipromotions.it" target="_blank">Sintesipromotions</a></li>
 					</ul>	
 				</div>
 				<div class="partner-row">
 					<ul>
-						<li><a href="http://cucinamikamai.com">Cucina Mikamai</a></li>
-						<li><a href="http://www.vinodalproduttore.it">Vino Dal Produttore</a></li>
+						<li><a href="http://cucinamikamai.com" target="_blank">Cucina Mikamai</a></li>
+						<li><a href="http://www.vinodalproduttore.it" target="_blank">Vino Dal Produttore</a></li>
 					</ul>
 				</div>
 			</div>
-
-			<div class="logo-caption">
-				Venini42 é un'iniziativa
+			<div class="italian">
+				<div class="logo-caption">
+					Venini42 é un'iniziativa
+				</div>
 			</div>
-			<a href="https://www.mikamai.com">
+
+			<div class="english">
+				<div class="logo-caption">
+					Venini42 powered by
+				</div>
+			</div>
+			<a href="https://www.mikamai.com" target="_blank">
 				<img src="http://venini42.s3.amazonaws.com/images/footer.jpg" />
 			</a>
 		</footer>

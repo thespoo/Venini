@@ -33,6 +33,13 @@ $(document).ready(function() {
 
 
 
+	$('#locale').click(function(e) {
+		$('.english').slideToggle();
+		$('.italian').slideToggle();
+
+		e.preventDefault();
+	});
+
 	$('.background-desk').waypoint(function() {
 		$('#nav-min').slideToggle();
 	})

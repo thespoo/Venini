@@ -697,6 +697,10 @@ span.desk-text-email-mob {
 			background-color: rgb(255, 80, 41);
 			color: #FFFFFF !important;
 		}
+
+		a:hover {
+			color: #FFFFFF;
+		}
 		
 
 
